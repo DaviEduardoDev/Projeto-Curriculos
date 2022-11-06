@@ -1,0 +1,148 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #e1e1e1;
+}
+body {
+  margin-left: 50px;
+}
+.imagem-perfil {
+  float: left;
+  height: 240px;
+  margin: 0 25px 40px 0;
+}
+.imagem-perfil img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.nome-profissao {
+  display: inline-block;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.nome-profissao h1 {
+  margin-bottom: 0px;
+  color: #012a5c;
+  font-weight: normal;
+}
+.nome-profissao p {
+  margin: 5px 0 15px 0;
+}
+#linha-horizontal-nome {
+  width: 540px;
+  border-bottom: 2px solid #012a5c;
+}
+h3 {
+  font-size: 25px;
+  color: #012a5c;
+}
+.contato {
+  clear: left;
+}
+.contato h3 {
+  margin: 7px 0;
+}
+.contato ul {
+  margin: 5px 0;
+  padding-left: 10px;
+}
+.contato li {
+  list-style-type: none;
+  font-size: 22px;
+  padding: 5px;
+}
+.contato li:nth-child(1)::before {
+  content: url(phone-solid.svg);
+  display: inline-block;
+  width: 15px;
+  margin-right: 10px;
+}
+.contato li:nth-child(2)::before {
+  content: url(envelope-solid.svg);
+  display: inline-block;
+  width: 15px;
+  margin-right: 10px;
+}
+#linha-horizontal-contato {
+  width: 804px;
+  border-bottom: 2px solid #012a5c;
+  margin-top: 10px;
+}
+.formaçao {
+  margin-top: 40px;
+}
+.formaçao h3 {
+  margin-bottom: 0;
+}
+.formaçao ul {
+  list-style-type: none;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+.formaçao li {
+  padding: 5px 5px 0 5px;
+}
+#linha-horizontal-formaçao {
+  width: 804px;
+  border-bottom: 2px solid #012a5c;
+  margin-top: 15px;
+}
+.experiencia {
+  margin-top: 25px;
+}
+.experiencia h3 {
+  margin-bottom: 5px;
+}
+.experiencia h4,
+p {
+  margin: 10px 0;
+}
+#linha-horizontal-experiencia {
+  width: 804px;
+  border-bottom: 2px solid #012a5c;
+  margin-top: 15px;
+}
+.habilidades {
+  margin-top: 25px;
+}
+.habilidades ul {
+  list-style-type: none;
+  display: flex;
+}
+.habilidades li {
+  padding: 0 33px;
+}
+.habilidades li:nth-child(1)::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #012a5c;
+  margin: 00 auto;
+}
+.habilidades li:nth-child(2)::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #012a5c;
+  margin: 00 auto;
+}
+.habilidades li:nth-child(3)::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #012a5c;
+  margin: 00 auto;
+}
+footer {
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  background: #e1e1e1;
+}
